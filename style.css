@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Pacifico', cursive, sans-serif;
+  background: linear-gradient(135deg, #ffecd2, #fcb69f);
+  color: #333;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  padding: 30px 20px;
+  border-bottom: 5px dashed #ff6f61;
+}
+
+h1 {
+  font-size: 3em;
+  color: #d94f4f;
+  margin: 0;
+  text-shadow: 2px 2px #fff;
+}
+
+main {
+  max-width: 800px;
+  margin: -20px auto 40px auto;
+  background-color: rgba(255,255,255,0.7);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: inset -5px -5px 15px rgba(0,0,0,0.2),
+              inset 5px 5px 15px rgba(255,255,255,0.4),
+              inset -10px -10px 20px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #ff6f61;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+   width:300px;
+   height:auto;
+   border-radius:50%;
+   border:5px dashed #d94f4f; 
+   box-shadow: inset -3px -3px #fff,
+               inset 3px3px #fff,
+               inset -8px -8px #d94f4f,
+               inset8px8px #d94f4f; 
+}
+
+p {
+    font-size:1.2em; 
+    line-height:1.6; 
+    margin-top:20px; 
+    text-align:center; 
+    color:#444; 
+}
+footer {
+    text-align:center; 
+    padding:20px; 
+    background-color:#ffecd2; 
+    font-size:1em; 
+    color:#555; 
+    border-top:5px dashed #ff6f61; 
+}
+a{ margin: 20px;
+     background-color:#fcb69f; /* яркий цвет, подходящий для городского стиля */
+    color: #fff; /* белый текст */
+    padding: 12px 24px; /* внутренние отступы */
+    border: none; /* без рамки */
+    border-radius: 4px; /* скругление углов */
+    font-size: 16px; /* размер шрифта */
+    cursor: pointer; /* курсор при наведении */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3); /* тень для глубины */
+    transition: all 0.3s ease; /* плавное изменение */}  
+
+
